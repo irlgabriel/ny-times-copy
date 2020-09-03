@@ -132,15 +132,16 @@ article p {
 #article-date {
   font-size: 14px;
   color: rgb(97, 97, 97);
+  margin: 0;
 }
 
-#fa-things {
+.fa-things {
   font-size: 16px;
   margin-left: auto;
-  margin-bottom: 20px;
+  padding: 10px 3px;
 }
 
-#fa-things i {
+.fa-things i {
   padding: 5px 10px;
   background-color: rgb(212, 212, 212);
   border-radius: 50%;
@@ -271,4 +272,91 @@ iframe {
 article strong {
   font-size: 21px;
   line-height: 3;
+}
+
+article img {
+  width: 100%;
+  
+}
+
+#img-wrapper {
+  margin: 20px 0px;
+}
+
+#img-wrapper p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#img-wrapper > :last-child {
+  font-size: 14px;
+  color: gray;
+}
+
+article small {
+  color: gray;
+}
+article small a {
+  color: black;
+}
+
+#article-footer button {
+  background-color: rgb(88, 133, 158);
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+#article-footer {
+  margin: 10px 0px;
+}
+
+#above-footer {
+  margin: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#primary, #secondary {
+  display: inline-block;
+
+}
+
+#primary {
+  width: 68%;
+}
+
+#secondary {
+  width: 300px;
+}
+
+.img-cont {
+  width: 30%;
+  margin-right: 15px;
+
+}
+
+.articles-container img {
+  width: 100%;
+}
+
+.under-image {
+  text-align: right;
+  font-size: 13px;
+  color: gray;
+
+}
+
+.article-title {
+  font-size: 18px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+hr.gray {
+  margin: 10px 0px;
 }
