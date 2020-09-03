@@ -327,7 +327,7 @@ article small a {
 }
 
 #primary {
-  width: 68%;
+  width: 66%;
 }
 
 #secondary {
@@ -335,8 +335,7 @@ article small a {
 }
 
 .img-cont {
-  width: 30%;
-  margin-right: 15px;
+  width: 33%;
 
 }
 
@@ -346,7 +345,7 @@ article small a {
 
 .under-image {
   text-align: right;
-  font-size: 13px;
+  font-size: 12px;
   color: gray;
 
 }
@@ -354,9 +353,36 @@ article small a {
 .article-title {
   font-size: 18px;
   padding-top: 10px;
-  font-weight: bold;
+  
 }
 
-hr.gray {
-  margin: 10px 0px;
+.article-date {
+  font-size: 13px;
+  color: gray;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(231, 228, 228);
+}
+
+#secondary p {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+#secondary strong {
+  text-decoration: none;
+  line-height: 3;
+  font-size: 17px;
+  width: 100%;
+}
+
+#primary hr, #secondary hr {
+  margin: 20px 0px;
+}
+
+.articles-container {
+  margin-top: 15px;
+  justify-content: space-between;
 }
