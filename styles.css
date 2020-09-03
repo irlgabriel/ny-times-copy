@@ -368,7 +368,7 @@ article small a {
 #secondary p {
   margin-top: 15px;
   padding-bottom: 15px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 #secondary strong {
@@ -385,4 +385,38 @@ article small a {
 .articles-container {
   margin-top: 15px;
   justify-content: space-between;
+}
+
+footer {
+  padding: 0px 25px 25px 25px;
+  border-top: 1px solid rgb(218, 218, 218);
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.thin-line {
+  margin-bottom: 1px;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(218, 218, 218);
+}
+
+#footer-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+footer p {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
+  padding-top: 20px;
+  font-size: 14px;
 }
